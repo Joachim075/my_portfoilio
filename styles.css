@@ -1,124 +1,84 @@
 body {
-    
     font-family: 'Open Sans', sans-serif;
-    
+    margin: 0;
+    padding: 0;
 }
-#welcome div {
 
-    display: flex;
-    flex-direction: column;
-    border: 0px ;
-    padding:50px;
-    text-align: left;
-    
-}
-.welcome-section div {
-    font-family: Arial, Helvetica, sans-serif;
-    padding: auto;
-    margin: 10px;
-    font-size: large;
-}
-/* CSS styles for the navigation bar */
-.navbar {
-    background-color: #e1c10c;
+header {
+    background-color: #333;
     color: white;
-    padding: 15px;
-    position: fixed;
-  margin-left: 70%;
-  border-radius: 10%;
+    padding: 20px;
+    text-align: center;
 }
 
-.navbar ul {
+header h1 span {
+    color: #e1c10c;
+}
+
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    
 }
 
-.navbar li {
+nav li {
     display: inline;
     margin-right: 20px;
 }
 
-/* CSS styles for the welcome section */
-.welcome-section {
-    text-align: center;
-    font-family: sans-serif;
-    color: rgb(26, 9, 67)
-    ;
+nav li a {
+    text-decoration: none;
+    color: rgb(132, 245, 245);
 }
 
-.welcome-section h1 {
-    font-size: 36px;
-    font-weight: bold;
+section {
+    padding: 50px;
 }
 
-.welcome-section p {
-    font-size: 18px;
-    align-items: self-end;
+section h2 {
+    color: #333;
 }
-.projects-section{
-    background-color: #e1c10c;
-    border: 2px coral;
-    border-radius: 15%;
-    margin: 2px;
-    padding: 2px;
+
+.project {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-
-    height: 900px;
-    gap: 1rem;
-    min-width: 400px;
-
+    margin-bottom: 30px;
 }
-.project-title{
-    background: #537eca;
-    border: 2px color(srgb rgb(41, 128, 102) green blue);
-    min-height: fit-content;
-    min-width: 5rem;
-    
+
+.project img {
+    max-width: 200px;
+    margin-right: 40px;
+    border-radius: 50%;
 }
+
+.view-project {
+    background: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 10%;
+    text-decoration: none;
+    color: #f9f4f4;
+}
+
+.contact-icons {
+    margin-top: 20px;
+}
+
+.contact-icons a {
+    margin-right: 20px;
+}
+
 footer {
     text-align: center;
     padding: 20px 0;
     background-color: #333;
     color: #fff;
 }
-.view-project {
-    background: #cac8c2;
-    border: #333 solid ;
-    margin-right: 70%;
-padding: 2px;
-border-radius: 5%;
-}
-.boxes{
-    background-color: #333;
-    border: 1px black;
-    margin: 2px;
-    padding: 2px;
-    display: flex;
-    gap: 1rem;
-    flex-flow: row wrap;
-    max-width: 100%;
-    min-height: 200px;
-    justify-content: space-evenly;
 
+#h2 {
+    color: #11a489;
 }
-.box{
-    border: 0px;
-    color: azure;
-    margin: 0px;
-    padding: 3px;
-    border-radius: 5%;
-    max-width: 700px;
-    height: 400px;
-    flex-wrap: wrap;
-}
-.box:nth-child(2){
-flex-grow: ;
-}
-body{
-    background-color: #333;
-    color: azure;
+
+.profile-pic {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
